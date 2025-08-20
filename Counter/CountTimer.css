@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Inspiration&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Alkatra", system-ui;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../images/firecrakers.jpg');
+    background-size:cover;
+    background-position: center;
+    color: aliceblue;
+    
+}
+.outerbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 25px;
+}
+.box{
+    width: 40px;
+    height: 40px;
+    /* background-color: red; */
+    text-align: center;
+}
+.top-text{
+    font-size: 13px;
+}
+.new-year{
+     font-family: "Inspiration", cursive;
+     font-size: 60px;
+     margin-top: 30px;
+}
+.box h2{
+    font-size: 20px;
+}
+.box small{
+    font-size: 12px;
+}
+
+@media (min-width : 576px){
+    .new-year{
+        font-size: 90px;
+    }
+    .box{
+        width: 60px;
+        height: 60px;
+    }
+    .box h2{
+        font-size: 30px;
+    }
+    .box small{
+        font-size: 15px;
+    }
+    .top-text{
+    font-size: 23px;
+    }
+
+}
+@media (min-width : 768px){
+    .new-year{
+        font-size: 100px;
+    }
+    .box{
+        width: 70px;
+        height: 70px;
+    }
+    .box h2{
+        font-size: 40px;
+    }
+    .box small{
+        font-size: 20px;
+    }
+    .top-text{
+    font-size: 25px;
+    }
+
+}
